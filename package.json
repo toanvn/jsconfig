@@ -1,0 +1,31 @@
+{
+  "name": "jsconfig",
+  "version": "1.0.0",
+  "description": "js config with webpack, etc",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server ./index.js --port 3000 --hot --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toanvn/jsconfig.git"
+  },
+  "keywords": [
+    "jsconfig"
+  ],
+  "author": "toan.phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toanvn/jsconfig/issues"
+  },
+  "homepage": "https://github.com/toanvn/jsconfig#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "jquery": "^3.1.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
