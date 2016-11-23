@@ -3,6 +3,7 @@ const _ = require('lodash');
 require('./bear.css');
 require('./index.less');
 module.exports = $('<div/>').html('ola lalal alala');
+const aaa;
 
 var person = [{
   "id": 1,
